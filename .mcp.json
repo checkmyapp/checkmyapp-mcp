@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "checkmyapp": {
+      "type": "http",
+      "url": "https://checkmyapp.dev/mcp"
+    }
+  }
+}

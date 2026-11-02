@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.sorokinvj/checkmyapp",
+  "title": "CheckMyApp",
+  "description": "Check deployed web apps, monitor user journeys, and return evidence-backed findings to your agent.",
+  "version": "1.0.1",
+  "websiteUrl": "https://checkmyapp.dev",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://checkmyapp.dev/mcp"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/JobLander-app/checkmyapp-mcp",
+    "source": "github"
+  }
+}
