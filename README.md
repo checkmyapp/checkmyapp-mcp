@@ -19,7 +19,9 @@ This repository contains the open-source connection configuration and plugin man
 - Manage recurring checks and inspect results from your agent.
 - Connect the GitHub App for checks after deployments.
 
-## Claude Code
+## Install
+
+### Claude Code
 
 ```sh
 claude mcp add --scope user --transport http checkmyapp https://checkmyapp.dev/mcp
@@ -34,7 +36,7 @@ Or install the plugin instead of adding the server manually:
 /plugin install checkmyapp@checkmyapp-plugins
 ```
 
-## Cursor
+### Cursor
 
 Merge this entry into your user MCP configuration (`~/.cursor/mcp.json`):
 
@@ -50,7 +52,7 @@ Merge this entry into your user MCP configuration (`~/.cursor/mcp.json`):
 
 Use Cursor's MCP authentication flow to sign in. This repository also includes a Cursor plugin manifest and root `mcp.json` for plugin installation.
 
-## Other MCP clients
+### Other MCP clients
 
 Add `https://checkmyapp.dev/mcp` as a remote Streamable HTTP server and complete OAuth in your browser. API-key access is available for clients or CI jobs that do not support OAuth; follow the current instructions on the website and keep credentials outside repositories.
 
