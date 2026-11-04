@@ -30,7 +30,7 @@ Run `/mcp`, choose `checkmyapp`, and authenticate in your browser.
 Or install the plugin instead of adding the server manually:
 
 ```text
-/plugin marketplace add JobLander-app/checkmyapp-mcp
+/plugin marketplace add checkmyapp/checkmyapp-mcp
 /plugin install checkmyapp@checkmyapp-plugins
 ```
 
