@@ -3,7 +3,7 @@
   "name": "io.github.sorokinvj/checkmyapp",
   "title": "CheckMyApp",
   "description": "Check deployed web apps, monitor user journeys, and return evidence-backed findings to your agent.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "websiteUrl": "https://checkmyapp.dev",
   "remotes": [
     {
@@ -12,7 +12,7 @@
     }
   ],
   "repository": {
-    "url": "https://github.com/JobLander-app/checkmyapp-mcp",
+    "url": "https://github.com/checkmyapp/checkmyapp-mcp",
     "source": "github"
   }
 }
