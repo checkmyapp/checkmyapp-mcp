@@ -1,7 +1,7 @@
 {
   "name": "checkmyapp",
   "version": "1.0.0",
-  "description": "Check deployed web apps and bring evidence-backed findings into your coding agent.",
+  "description": "QA after every deploy: walks your live web app as a real user and tells your coding agent what broke.",
   "author": {
     "name": "CheckMyApp",
     "email": "hello@checkmyapp.dev",
@@ -12,7 +12,10 @@
   "license": "MIT",
   "keywords": [
     "mcp",
+    "qa",
     "testing",
+    "e2e",
+    "browser-testing",
     "monitoring",
     "web-apps",
     "deployments"
