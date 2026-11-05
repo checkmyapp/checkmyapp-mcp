@@ -9,7 +9,7 @@
       "name": "checkmyapp",
       "source": "./",
       "description": "QA after every deploy: walks your live web app as a real user and tells your coding agent what broke.",
-      "version": "1.0.0"
+      "version": "1.0.1"
     }
   ],
   "metadata": {
