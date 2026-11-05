@@ -32,6 +32,10 @@ The first check found the break:
 >
 > **Why it matters:** Pricing is where interest becomes a purchase. With it down from every entry point, a ready-to-buy visitor hits a dead end and leaves — lost revenue. Once fixed, visitors would see your plans and prices and be able to choose one.
 
+The screenshot that check saved at this step, cropped to the part of the page that has content:
+
+<img src="assets/finding-pricing-500.png" alt="The demo app's pricing page: Something went wrong. Error 500: the price list could not be loaded." width="560">
+
 We fixed the page. The next check, three minutes later:
 
 > Your previously broken pricing page is fixed: both the home page "See pricing" link and the "Pricing" nav link now land on /pricing with a clean 200, no console errors, and the Crew plan ($12/month, one boat free) renders correctly on both routes.
@@ -112,7 +116,9 @@ Keep any servers already in the file. Then sign in to `checkmyapp` from the MCP 
 
 Add `https://checkmyapp.dev/mcp` as a remote Streamable HTTP server and complete OAuth in your browser. API-key access is available for clients or CI jobs that do not support OAuth; follow the current instructions on the website and keep credentials outside repositories.
 
-## Try it
+## Usage
+
+After you sign in, ask your agent in plain words:
 
 - “Set up CheckMyApp for this app.”
 - “Did CheckMyApp find anything on my last deploy?”
