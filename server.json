@@ -2,9 +2,21 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.sorokinvj/checkmyapp",
   "title": "CheckMyApp",
-  "description": "Check deployed web apps, monitor user journeys, and return evidence-backed findings to your agent.",
-  "version": "1.0.3",
+  "description": "QA after every deploy: walks your live web app as a real user and tells your agent what broke.",
+  "version": "1.0.4",
   "websiteUrl": "https://checkmyapp.dev",
+  "icons": [
+    {
+      "src": "https://checkmyapp.dev/icon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": ["any"]
+    },
+    {
+      "src": "https://raw.githubusercontent.com/checkmyapp/checkmyapp-mcp/catalog/assets/logo-400.png",
+      "mimeType": "image/png",
+      "sizes": ["400x400"]
+    }
+  ],
   "remotes": [
     {
       "type": "streamable-http",

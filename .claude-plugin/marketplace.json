@@ -8,11 +8,11 @@
     {
       "name": "checkmyapp",
       "source": "./",
-      "description": "Check deployed web apps and bring evidence-backed findings into your coding agent.",
+      "description": "QA after every deploy: walks your live web app as a real user and tells your coding agent what broke.",
       "version": "1.0.0"
     }
   ],
   "metadata": {
-    "description": "Official CheckMyApp connection plugin for deployed web app checks."
+    "description": "Official CheckMyApp plugin: QA of your live web app after every deploy, reported to your coding agent."
   }
 }
