@@ -1,4 +1,4 @@
-<img src="assets/logo-400.png" alt="CheckMyApp" width="72" height="72">
+<img src="https://raw.githubusercontent.com/checkmyapp/checkmyapp-mcp/catalog/assets/logo-400.png" alt="CheckMyApp" width="72" height="72">
 
 # CheckMyApp
 
@@ -34,7 +34,7 @@ The first check found the break:
 
 The screenshot that check saved at this step, cropped to the part of the page that has content:
 
-<img src="assets/finding-pricing-500.png" alt="The demo app's pricing page: Something went wrong. Error 500: the price list could not be loaded." width="560">
+<img src="https://raw.githubusercontent.com/checkmyapp/checkmyapp-mcp/catalog/assets/finding-pricing-500.png" alt="The demo app's pricing page: Something went wrong. Error 500: the price list could not be loaded." width="560">
 
 We fixed the page. The next check, three minutes later:
 
