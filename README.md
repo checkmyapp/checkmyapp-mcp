@@ -52,6 +52,24 @@ Merge this entry into your user MCP configuration (`~/.cursor/mcp.json`):
 
 Use Cursor's MCP authentication flow to sign in. This repository also includes a Cursor plugin manifest and root `mcp.json` for plugin installation.
 
+### Cline
+
+Merge this entry into `cline_mcp_settings.json` (open it from Cline's MCP Servers panel; the Cline CLI keeps it in `~/.cline/data/settings/`):
+
+```json
+{
+  "mcpServers": {
+    "checkmyapp": {
+      "url": "https://checkmyapp.dev/mcp",
+      "type": "streamableHttp",
+      "disabled": false
+    }
+  }
+}
+```
+
+Keep any servers already in the file. Then sign in to `checkmyapp` from the MCP Servers panel.
+
 ### Other MCP clients
 
 Add `https://checkmyapp.dev/mcp` as a remote Streamable HTTP server and complete OAuth in your browser. API-key access is available for clients or CI jobs that do not support OAuth; follow the current instructions on the website and keep credentials outside repositories.
