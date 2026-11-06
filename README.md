@@ -110,7 +110,7 @@ Merge this entry into `cline_mcp_settings.json` (open it from Cline's MCP Server
 }
 ```
 
-Keep any servers already in the file. Then sign in to `checkmyapp` from the MCP Servers panel.
+Keep any servers already in the file. Then sign in to `checkmyapp`: from the MCP Servers panel in the extension, or in the Cline CLI by running `cline mcp` and choosing **Authorize OAuth**.
 
 ### Other MCP clients
 
