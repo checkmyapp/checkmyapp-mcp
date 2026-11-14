@@ -2,7 +2,7 @@
 
 # CheckMyApp
 
-**QA after every deploy, for teams that ship with a coding agent.**
+**Your agent says “done”. CheckMyApp uses your live app as a real user and tells it what broke.**
 
 [CheckMyApp](https://checkmyapp.dev) opens your live web app in a browser and walks the journeys that matter as a real user: sign up, sign in, checkout. Then it tells your coding agent what broke, where, and how to know it is fixed.
 
