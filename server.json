@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.sorokinvj/checkmyapp",
   "title": "CheckMyApp",
-  "description": "QA after every deploy: walks your live web app as a real user and tells your agent what broke.",
-  "version": "1.0.4",
+  "description": "Your agent says “done”. CheckMyApp uses your live app as a real user and tells it what broke.",
+  "version": "1.0.5",
   "websiteUrl": "https://checkmyapp.dev",
   "icons": [
     {
